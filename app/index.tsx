@@ -4,6 +4,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import List from '@/components/List';
 // import DatePicker from "react-native-date-picker"; // Not working
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
+import "../global.css"
+
 
 const Index = () => {
   // State for the task input and tasks list
