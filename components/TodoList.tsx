@@ -79,7 +79,7 @@ const TodoList = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>To-Do List</Text>
+      <Text style={styles.title} className='bg-slate-500'>To-Do List</Text>
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
